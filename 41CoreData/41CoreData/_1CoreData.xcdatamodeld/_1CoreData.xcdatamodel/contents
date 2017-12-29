@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="AMCourse" representedClassName="AMCourse" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="students" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AMStudent" inverseName="courses" inverseEntity="AMStudent" syncable="YES"/>
+        <relationship name="subject" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AMSubject" inverseName="courses" inverseEntity="AMSubject" syncable="YES"/>
+        <relationship name="teacher" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AMStudent" inverseName="teacher" inverseEntity="AMStudent" syncable="YES"/>
+    </entity>
+    <entity name="AMStudent" representedClassName="AMStudent" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" attributeType="String" syncable="YES"/>
+        <relationship name="courses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AMCourse" inverseName="students" inverseEntity="AMCourse" syncable="YES"/>
+        <relationship name="teacher" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AMCourse" inverseName="teacher" inverseEntity="AMCourse" syncable="YES"/>
+    </entity>
+    <entity name="AMSubject" representedClassName="AMSubject" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="courses" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="AMCourse" inverseName="subject" inverseEntity="AMCourse" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AMCourse" positionX="-3665" positionY="-4833" width="128" height="103"/>
+        <element name="AMStudent" positionX="-3377" positionY="-4869" width="128" height="118"/>
+        <element name="AMSubject" positionX="-3897" positionY="-4816" width="128" height="73"/>
+    </elements>
+</model>

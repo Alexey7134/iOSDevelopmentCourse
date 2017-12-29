@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Email Address"; ObjectID = "33j-1o-x1c"; */
+"33j-1o-x1c.text" = "Email Address";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "62J-Vg-IWD"; */
+"62J-Vg-IWD.placeholder" = "Last Name";
+
+/* Class = "UITextField"; placeholder = "Email address"; ObjectID = "Afx-J6-zwE"; */
+"Afx-J6-zwE.placeholder" = "Email address";
+
+/* Class = "UITextField"; placeholder = "Login"; ObjectID = "PJF-JB-BSI"; */
+"PJF-JB-BSI.placeholder" = "Login";
+
+/* Class = "UILabel"; text = "First Name"; ObjectID = "Qux-Fy-jJA"; */
+"Qux-Fy-jJA.text" = "First Name";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "WR2-fg-Yj2"; */
+"WR2-fg-Yj2.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Last Name"; ObjectID = "WsS-lV-PlK"; */
+"WsS-lV-PlK.text" = "Last Name";
+
+/* Class = "UILabel"; text = "Age"; ObjectID = "bgJ-H2-HtF"; */
+"bgJ-H2-HtF.text" = "Age";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "feh-uv-ru9"; */
+"feh-uv-ru9.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Age"; ObjectID = "iYv-Gp-koT"; */
+"iYv-Gp-koT.placeholder" = "Age";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "mqE-Gi-lGv"; */
+"mqE-Gi-lGv.placeholder" = "Phone Number";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "opm-X6-IcV"; */
+"opm-X6-IcV.text" = "Password";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "seq-me-fcu"; */
+"seq-me-fcu.text" = "Login";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "wH4-CH-blx"; */
+"wH4-CH-blx.placeholder" = "First Name";

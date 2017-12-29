@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+
+target '45ClientServerAPIBasic' do
+
+use_frameworks!
+pod 'AFNetworking', '~> 3.0'
+
+end
